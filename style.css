@@ -180,3 +180,54 @@ footer { background: var(--primary-blue); color: white; padding: 3rem 5% 1rem; t
     .hero h1 { font-size: 2.5rem; }
     .nav-links { display: none; } /* Simplified for demo */
 }
+/* --- My Skills Section (Circles) --- */
+.my-skills-section {
+    padding: 4rem 5%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.my-skills-section .section-title {
+    margin-bottom: 30px;
+    color: #004aad; /* Dark Blue */
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+    transform: translateY(-5px);
+}
+
+.skill-icon-circle {
+    width: 80px;
+    height: 80px;
+    background-color: #f0f7ff; /* Light Blue */
+    color: #004aad;           /* Dark Blue */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    border: 1px solid rgba(0, 74, 173, 0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.skill-item p {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #333;
+}
