@@ -165,22 +165,7 @@ header {
 .timeline-item { border-left: 3px solid var(--primary-blue); padding-left: 20px; margin-bottom: 25px; }
 .timeline-item h4 { color: var(--primary-blue); }
 .subtitle { font-size: 0.85rem; color: var(--grey-text); margin-bottom: 10px; }
-
-/* Footer */
-footer { background: var(--primary-blue); color: white; padding: 3rem 5% 1rem; text-align: center; }
-.contact-bar { display: flex; justify-content: center; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem; }
-.contact-item { display: flex; align-items: center; gap: 10px; font-size: 0.9rem; }
-.copyright { font-size: 0.8rem; opacity: 0.7; margin-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem; }
-
-/* Responsive */
-@media (max-width: 768px) {
-    .hero, .split-section, .about-container { grid-template-columns: 1fr; display: block; }
-    .hero { background: white; text-align: center; }
-    .hero-btns { justify-content: center; }
-    .hero h1 { font-size: 2.5rem; }
-    .nav-links { display: none; } /* Simplified for demo */
-    
-}/* --- My Skills Section (Circles) --- */
+/* --- My Skills Section (Circles) --- */
 .my-skills-section {
     padding: 4rem 5%;
     background-color: #ffffff;
@@ -230,5 +215,21 @@ footer { background: var(--primary-blue); color: white; padding: 3rem 5% 1rem; t
     font-weight: 600;
     font-size: 0.9rem;
     color: #333;
+}
+
+/* Footer */
+footer { background: var(--primary-blue); color: white; padding: 3rem 5% 1rem; text-align: center; }
+.contact-bar { display: flex; justify-content: center; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem; }
+.contact-item { display: flex; align-items: center; gap: 10px; font-size: 0.9rem; }
+.copyright { font-size: 0.8rem; opacity: 0.7; margin-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero, .split-section, .about-container { grid-template-columns: 1fr; display: block; }
+    .hero { background: white; text-align: center; }
+    .hero-btns { justify-content: center; }
+    .hero h1 { font-size: 2.5rem; }
+    .nav-links { display: none; } /* Simplified for demo */
+    
 }
 
