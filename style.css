@@ -179,8 +179,8 @@ footer { background: var(--primary-blue); color: white; padding: 3rem 5% 1rem; t
     .hero-btns { justify-content: center; }
     .hero h1 { font-size: 2.5rem; }
     .nav-links { display: none; } /* Simplified for demo */
-}
-/* --- My Skills Section (Circles) --- */
+    
+}/* --- My Skills Section (Circles) --- */
 .my-skills-section {
     padding: 4rem 5%;
     background-color: #ffffff;
@@ -231,3 +231,4 @@ footer { background: var(--primary-blue); color: white; padding: 3rem 5% 1rem; t
     font-size: 0.9rem;
     color: #333;
 }
+
